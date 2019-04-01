@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+	<title>HTML Forms</title>
+	<meta charset="UTF-8">
+	</head>
+		<body>
+		<form method="get" action="action_page.php">
+		<legend>HTML Form</legend>
+		<fieldset >
+		First Name <input type="text" name="firstname" placeholder="First Name" size="40" readonly maxlength="7" autocomplete="on" autofocus required/><br /><br />
+		Last Name <input type="text" name="lastname" value="Bilal" disabled/><br /><br />
+		Male <input type="radio" value="male" /><br /><br />
+		Female <input type="radio" value="female" /><br /><br />
+		<input type="submit" /><br /><br />
+		</fieldset>
+		</form><br /><br />
+		<form>
+		<legend>Form List</legend>
+		<fieldset>
+		<select name="Cars">
+		<option value="BMW">BMW</option>
+		<option value="Ferrari">Ferrari</option>
+		<option value="Volvo">Volvo</option>
+		</select><br /><br />
+		<textarea>Comments !</textarea>
+		</fieldset>
+		</form>
+		<button type="button" onclick="alert('Hello World !')">Click Me</button>
+		<input list="Browsers">
+		<datalist id="Browsers">
+		<option value="Mozilla">Mozilla</option>
+		<option value="Chrome">Chrome</option>
+		<option value="Internet Explorer">Internet Explorer</option>
+		</datalist><br />
+		<input type="submit" /><br />
+		User Name<input type="text" name="username" />
+		Password<input type="password" name="password"/>
+		Encryption <keygen name="security" />
+		<input type="submit" /><br />
+		Select From 1 To 5 <input type="number" quantity="5" min="1" max="5" /> <br />
+		<input type="checkbox" value="Pakistan" /> Pakistan<br />
+		<input type="file" name="img" multiple />
+		</body>
+</html>
+	

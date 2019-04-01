@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Local Storage</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../../../Libraries/Bootstrap Library/css/bootstrap.min.css">
+	<script src="../../../Libraries/Bootstrap Library/js/jquery.min.js"></script>
+	<script src="../../../Libraries/Bootstrap Library/js/bootstrap.min.js"></script>
+	<style>
+	body
+	{
+		background-image:url("background.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	</style>
+	</head>
+		<body>
+		<h1>The localStorage Object</h1>
+		<p>The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.</p>
+		<button onclick="localStorageObject()" class="btn btn-danger btn-lg">Local Storage Object</button>
+		<p id="localStorageObject"></p>
+		<p>Note: Name/value pairs are always stored as strings. Remember to convert them to another format when needed!</p>
+		<p>The following example counts the number of times a user has clicked a button. In this code the value string is converted to a number to be able to increase the counter:</p>
+		<button onclick="counterFunction()" class="btn btn-danger btn-lg">Counter Function</button>
+		<p id="counterFunction"></p>
+		<h1>The sessionStorage Object</h1>
+		<p>The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.</p>
+		<p>The following example counts the number of times a user has clicked a button, in the current session:</p>
+		<button onclick="sessionStorage()" class="btn btn-danger btn-lg">Session Storage Object</button>
+		<p id="sessionStorage"></p>
+		<script src="script.js" type="text/javascript"></script>
+		</body>
+</html>
+	

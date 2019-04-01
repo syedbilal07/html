@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Web Workers</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../../../Libraries/Bootstrap Library/css/bootstrap.min.css">
+	<script src="../../../Libraries/Bootstrap Library/js/jquery.min.js"></script>
+	<script src="../../../Libraries/Bootstrap Library/js/bootstrap.min.js"></script>
+	<style>
+	body
+	{
+		background-image:url("background.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	</style>
+	</head>
+		<body>
+		<h1>HTML Web Workers Example</h1>
+		<p>The example below creates a simple web worker that count numbers in the background:</p>
+		<div class="btn btn-inline btn-group">
+			<button onclick="startCounter()" class="btn btn-danger btn-lg">Start Counter</button>
+			<button onclick="stopCounter()" class="btn btn-danger btn-lg">Stop Counter</button>
+		</div>
+		<p id="startCounter"></p>
+		<script src="script.js" type="text/javascript"></script>
+		</body>
+</html>
+	

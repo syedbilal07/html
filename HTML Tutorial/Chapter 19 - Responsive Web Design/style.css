@@ -1,0 +1,9 @@
+.city
+{
+	float:left;
+	border:1px solid black;
+	padding:10px;
+	margin:10px;
+	height:300px;
+	width:300px;
+}
